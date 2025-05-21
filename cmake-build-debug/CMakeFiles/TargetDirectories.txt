@@ -1,0 +1,3 @@
+C:/Users/Monica/Desktop/an 3/ProiectPI1/cmake-build-debug/CMakeFiles/ProiectPI1.dir
+C:/Users/Monica/Desktop/an 3/ProiectPI1/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Monica/Desktop/an 3/ProiectPI1/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -43,7 +43,7 @@ Mat resizeBilinear(Mat src, double scale) {
             float b = gy - y0;
 
             if (src.channels() == 1) {
-                // Grayscale
+
                 float p0 = src.at<uchar>(y0, x0);
                 float p1 = src.at<uchar>(y0, x1);
                 float p2 = src.at<uchar>(y1, x0);
@@ -56,7 +56,7 @@ Mat resizeBilinear(Mat src, double scale) {
 
                 dst.at<uchar>(i, j) = static_cast<uchar>(value);
             } else if (src.channels() == 3) {
-                // Color
+
                 Vec3b p0 = src.at<Vec3b>(y0, x0);
                 Vec3b p1 = src.at<Vec3b>(y0, x1);
                 Vec3b p2 = src.at<Vec3b>(y1, x0);
